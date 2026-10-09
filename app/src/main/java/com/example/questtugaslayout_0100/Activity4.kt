@@ -75,6 +75,12 @@ fun CardCustom(
                     fontWeight = FontWeight.Bold,
                     color = Color.White
                 )
+                Text(
+                    text = noHp,
+                    fontSize = 14.sp,
+                    color = Color.Yellow,
+                    modifier = Modifier.padding(top = 4.dp)
+                )
             }
         }
     }
