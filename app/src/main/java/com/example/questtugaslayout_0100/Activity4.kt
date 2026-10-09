@@ -81,6 +81,12 @@ fun CardCustom(
                     color = Color.Yellow,
                     modifier = Modifier.padding(top = 4.dp)
                 )
+                Text(
+                    text = alamat,
+                    fontSize = 14.sp,
+                    color = Color.White,
+                    modifier = Modifier.padding(top = 4.dp)
+                )
             }
         }
     }
