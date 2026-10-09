@@ -72,6 +72,13 @@ fun ActivityKeempat(modifier: Modifier = Modifier) {
             backgroundColor = Color(0xFFD32F2F)
         )
 
+        CardCustom(
+            nama = stringResource(R.string.nama_4),
+            noHp = stringResource(R.string.nohp_4),
+            alamat = stringResource(R.string.alamat_4),
+            backgroundColor = Color(0xFF6A1B9A)
+        )
+
     }
 }
 
