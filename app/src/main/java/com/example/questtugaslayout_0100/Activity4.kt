@@ -8,6 +8,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.questtugaslayout_0100.ui.theme.QuestTugasLayout_0100Theme
@@ -26,7 +27,13 @@ fun ActivityKeempat(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun CardCustom() {}
+fun CardCustom(
+    nama: String,
+    noHp: String,
+    alamat: String,
+    backgroundColor: Color,
+    modifier: Modifier = Modifier
+) {}
 
 @Preview(showBackground = true)
 @Composable
