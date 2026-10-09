@@ -25,12 +25,13 @@ fun ActivityKeempat(modifier: Modifier = Modifier) {
     ) { }
 }
 
-
+@Composable
+fun CardCustom() {}
 
 @Preview(showBackground = true)
 @Composable
-fun ActivityKeempat2Preview() {
-    QuestTugasLayout_0100Theme()  { }Theme {
+fun ActivityKeempatPreview() {
+    QuestTugasLayout_0100Theme{
         ActivityKeempat()
     }
 }
