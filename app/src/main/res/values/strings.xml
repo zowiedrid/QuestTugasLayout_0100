@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">QuestTugasLayout_0100</string>
+    <string name="app_name">pertemuan4</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama">Ilham Fadhilah</string>
+    <string name="alamat">Maguwo, Sleman</string>
+    <string name="copy">Copyright 2026</string>
+
+    <!-- Act4_2 Strings -->
+    <string name="logo_desc_kiri">Logo UMY Kiri</string>
+    <string name="logo_desc_kanan">Logo UMY Kanan</string>
+
+    <string name="nama_1">Ilham Fadhilah</string>
+    <string name="nohp_1">081234567890</string>
+    <string name="alamat_1">Maguwo, Sleman</string>
+
+    <string name="nama_2">Budi Santoso</string>
+    <string name="nohp_2">082198765432</string>
+    <string name="alamat_2">Bantul, Yogyakarta</string>
+
+    <string name="nama_3">Siti Rahmawati</string>
+    <string name="nohp_3">085611223344</string>
+    <string name="alamat_3">Gondomanan, Yogyakarta</string>
+
+    <string name="nama_4">Ahmad Rifai</string>
+    <string name="nohp_4">087855667788</string>
+    <string name="alamat_4">Depok, Sleman</string>
 </resources>
