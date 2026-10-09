@@ -50,6 +50,13 @@ fun ActivityKeempat(modifier: Modifier = Modifier) {
         )
 
         Spacer(modifier = Modifier.height(20.dp))
+
+        CardCustom(
+            nama = stringResource(R.string.nama_1),
+            noHp = stringResource(R.string.nohp_1),
+            alamat = stringResource(R.string.alamat_1),
+            backgroundColor = Color(0xFF3F51B5)
+        )
     }
 }
 
