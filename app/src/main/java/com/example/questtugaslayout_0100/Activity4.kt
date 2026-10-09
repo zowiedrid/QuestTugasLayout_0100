@@ -2,6 +2,7 @@ package com.example.questtugaslayout_0100
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -79,6 +80,18 @@ fun ActivityKeempat(modifier: Modifier = Modifier) {
             backgroundColor = Color(0xFF6A1B9A)
         )
 
+    }
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+
+    ) {
+        Text(
+            stringResource(R.string.copy),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 50.dp),
+        )
     }
 }
 
