@@ -88,6 +88,11 @@ fun CardCustom(
                     modifier = Modifier.padding(top = 4.dp)
                 )
             }
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY Kanan",
+                modifier = Modifier.size(60.dp)
+            )
         }
     }
 }
